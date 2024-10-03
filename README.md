@@ -1,5 +1,8 @@
 # PubNub Chat Components for React and React Native
 
+> [!IMPORTANT]
+> PubNub will stop supporting Chat Components on January 1, 2025, but you are welcome to contribute. Learn how to migrate to the Chat SDK [here](https://www.pubnub.com/docs/general/resources/migration-guides/react-components-chat-sdk).
+
 PubNub Chat Components for React and React Native are the fastest way to add chat features like direct and group messaging, typing indicators, or reactions, without going through the complexity of the low-level architecture of real-time networks.
 
 - **Reduced Implementation Time**: Develop proof-of-concept and production-ready apps faster using predefined components.
