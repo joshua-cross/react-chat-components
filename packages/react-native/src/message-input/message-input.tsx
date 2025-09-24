@@ -134,11 +134,12 @@ export const MessageInput: FC<MessageInputProps> = (props: MessageInputProps) =>
         type: "*/*",
         copyToCacheDirectory: true,
       });
-      if (result.type === "cancel") {
+      if (!result.output) {
         return;
       }
       setModalVisible(false);
-      setFile({ mimeType: result.mimeType, name: result.name, uri: result.uri });
+
+      setFile(result.output.item(0) ?? undefined);
     } catch (e) {
       onError(e);
     }
