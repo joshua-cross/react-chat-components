@@ -55,7 +55,7 @@
     "jest": "29.2.1",
     "jest-environment-jsdom": "29.0.3",
     "jest-expo": "54.0.12",
-    "pubnub": "^10.0.0",
+    "pubnub": "^7.0.1",
     "pubnub-react": "^3.0.2",
     "react": "19.1.0",
     "react-dom": "19.1.0",
